@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>Hjem</title>
+</head>
+ <body>
+    <nav>
+      <!--Navigaton bar / top bar-->
+      <ul class="topnav">
+        <li><a class="active" href="/index.html"><i class="fa fa-fw fa-home"></i>Hjem</a></li>
+        <li><a href="/HTML/info.html"><i class="fa fa-fw fa-question"></i>Om IM-linjen</a></li>
+        <li><a href="/HTML/prosjekter.html"><i class="fa fa-fw fa-paperclip"></i>Prosjekter</a></li>
+
+        <!--Dropdown section-->
+        <li><div class="dropdown"><button class="dropbtn" onclick="myFunction()"><i class="fa fa-fw fa-book"></i>Fag <i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content" id="myDropdown">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+          </div>
+        </li>
+
+        <!--Github til høyre-->
+        <li class="right"><a href="https://github.com/mchtsz" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a></li>
+      </ul>
+    </nav>
+
+    <script>
+      /* Når brukeren klikker på knappen,
+      veksle mellom å skjule og vise dropdown boks */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+      
+      // Lukk dropdown hvis brukeren klikker utenfor//
+      window.onclick = function(e) {
+        if (!e.target.matches('.dropbtn')) {
+        var myDropdown = document.getElementById("myDropdown");
+          if (myDropdown.classList.contains('show')) {
+            myDropdown.classList.remove('show');
+          }
+        }
+      }
+    </script>
+
+    <!--Hoved innhold (tekst + buttons)-->
+    <article>
+      <div style="padding:0 1rem;">
+        <div class="section">
+          <h2>Amalie Skram VGS</h2>
+          <h5>Fylkeskommunal Videregående skole i Bergen.</h5>
+            <p>Denne nettsiden representerer skolen, IM-linjen, prosjekter og diverse fag på IM linjen.</p>
+            <h4>Skolen tilbyr 5  utdanningstilbud:</h4>
+
+            <!--Linker / buttons til diverse utdanningstilbud fra AMA VGS-->
+            <a href="https://www.amalieskram.vgs.no/utdanningsprogram/vare-utdanningsprogram/informasjonsteknologi-og-medieproduksjon/" target="_blank"><button class="button" style="vertical-align:middle"><span>Informasjonsteknologi og Medieproduksjon</span></button></a> 
+            <a href="https://www.amalieskram.vgs.no/utdanningsprogram/vare-utdanningsprogram/medium-og-kommunikasjon/" target="_blank"><button class="button" style="vertical-align:middle"><span>Medium og kommunikasjon</span></button></a>
+            <a href="https://www.amalieskram.vgs.no/utdanningsprogram/vare-utdanningsprogram/pabygging-til-generell-studiekompetanse/" target="_blank"><button class="button" style="vertical-align:middle"><span>Påbygg</span></button></a>
+            <a href="https://www.amalieskram.vgs.no/utdanningsprogram/vare-utdanningsprogram/sal-service-og-reiseliv/" target="_blank"><button class="button" style="vertical-align:middle"><span>Salg, service og reiseliv</span></button></a> 
+            <a href="https://www.amalieskram.vgs.no/utdanningsprogram/vare-utdanningsprogram/studiespesialisering/" target="_blank"><button class="button" style="vertical-align:middle"><span>Studiespesialisering</span></button></a> 
+        </div>
+
+        <!--Bilde av AMA VGS-->
+        <div class ="aside">
+          <img src="/BILDER/amalie-min.png" alt="Skole">
+        </div>
+      </div>
+    </article>
+    
+    <!--Info nede (footer)-->
+    <footer>
+      <i class="fa fa-fw fa-map-marker"></i>Lungegårdskaien 40, 5015 Bergen • <i class="fa fa-fw fa-phone"></i>Spørsmål? ring - 918 34 333 • <i class="fa fa-fw fa-envelope"></i> Send mld: marthinhat@gmail.com
+    </footer> 
+ </body>
+</html>
+
