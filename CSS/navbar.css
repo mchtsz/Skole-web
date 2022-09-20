@@ -12,7 +12,7 @@
   ul.topnav li {
     float: left;
   }
-  
+
   /*----Navbar bokser design----*/
   ul.topnav li a {
     display: block;
@@ -81,12 +81,12 @@
     display: flex;
   }
   /*------Github-----*/
-ul.topnav li.right {
+  ul.topnav li.right {
     float: right;
   }
   
-/*---------------Telefon modus------------*/
-@media screen and (max-width: 37.5rem) {
+  /*---------------Telefon modus------------*/
+  @media screen and (max-width: 37.5rem) {
     ul.topnav li.right, 
     ul.topnav li {float: none;}
-}
+  }
