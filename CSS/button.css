@@ -15,15 +15,15 @@
     margin: 0.3rem;
   }
   
-  /*-Button animasjon + visuell respons-*/
-  .button span {
+/*-Button animasjon + visuell respons-*/
+.button span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
   }
   
-  .button span:after {
+.button span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
@@ -32,11 +32,11 @@
     transition: 0.5s;
   }
     
-  .button:hover span {
+.button:hover span {
     padding-right: 1.5rem;
   }
     
-  .button:hover span:after {
+.button:hover span:after {
     opacity: 1;
     right: 0;
-  }
+}

@@ -5,6 +5,7 @@ body {
   display:flex; 
   flex-direction:column;
 }
+
 header{ 
   min-height: 3.125rem;
 }
@@ -29,6 +30,7 @@ footer{
   max-width:70rem;
 }
 
+
 /*------Amalie Skram VGS bilde kode------*/
 .aside{
   width: 100%;
@@ -41,4 +43,13 @@ footer{
   height: 27rem;
   width: 70rem;
   box-shadow: gray 0 0 1rem;
+}
+
+.liste{
+  display: flex;
+  gap: 2rem;
+}
+
+.imBilde{
+  width: 38rem;
 }
