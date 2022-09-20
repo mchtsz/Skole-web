@@ -45,11 +45,14 @@ footer{
   box-shadow: gray 0 0 1rem;
 }
 
+/*------IM INFO LISTE-----*/
 .liste{
   display: flex;
   gap: 2rem;
 }
 
 .imBilde{
-  width: 38rem;
+  width: auto;
+  max-width: 100%;
+  height: auto;
 }
