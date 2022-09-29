@@ -16,6 +16,7 @@ body {
 
 /*Box = innhold, altså tekst*/
 .container .box {
+    display: flex;
     position: relative;
     width: calc(25rem - 1.875rem);
     height: calc(18.75rem - 1.875rem);
@@ -25,7 +26,6 @@ body {
     box-sizing: border-box;
     overflow: hidden;
     border-radius: 0.625rem;
-
 }
 
 /*Icon properties,*/
@@ -126,5 +126,11 @@ body {
         height: 65rem;
         max-width: 100%;
         margin: 0;
+        justify-content: center; 
+        align-items: center;
+    }
+    .container .box{
+        max-width: 100%;
+        margin: 1rem;
     }
   }
