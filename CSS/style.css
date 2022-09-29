@@ -73,10 +73,12 @@ footer{
   float: center;
   margin: auto;
   max-width:70rem;
-  text-align: center;
   }
   .imBilde {
     display: flex;
     margin-bottom: 1rem;
+  }
+  .mid {
+    text-align: center;
   }
 }
