@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/*Prosjekt bokser høyde + bredde + flex*/
+.container {
+    position: relative;
+    width: 75rem;
+    height: 18.75rem;
+    margin: 15rem auto;
+    display: flex;
+}
+
+/*Box = innhold, altså tekst*/
+.container .box {
+    position: relative;
+    width: calc(25rem - 1.875rem);
+    height: calc(18.75rem - 1.875rem);
+    background: black;
+    float: left;
+    margin: 0.9rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 0.625rem;
+
+}
+
+/*Icon properties,*/
+.container .box .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:#f00;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+/*Border rundt icon*/
+.container .box:hover .icon{
+    top: 1.25rem;
+    left: calc(50% - 2.5rem);
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+
+}
+
+/*Icon zoome inn function*/
+.container .box .icon .fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5rem;
+    transition: 0.5s;
+    color: #fff;
+}
+.container .box:hover .icon .fa {
+    font-size: 2.5rem;
+}
+
+/*Tekst boks, satt under boksen*/
+.container .box .content {
+    position: absolute;
+    top: 100%;
+    height: calc(100% - 6.25rem);
+    text-align: center;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+/*Når hover / klikke tekst sklir opp*/
+.container .box:hover .content {
+    top: 6.25rem;
+    opacity: 1;
+}
+
+.container .box .content h3 {
+    margin: 0 0 0.625rem;
+    padding: 0;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+/*----Tekst color-----*/
+.container .box .content p {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+/*-----------Box 1----------------*/
+.container .box:nth-child(1) .icon {
+    background: #319635;
+}
+.container .box:nth-child(1){
+    background: #4caf50;
+}
+
+/*----------Box 2--------------*/
+.container .box:nth-child(2) .icon {
+    background: #d03852;
+}
+.container .box:nth-child(2){
+    background: #f54967;
+}
+
+/*----------Box 3--------------*/
+.container .box:nth-child(3) .icon {
+    background: #23798e;
+}
+.container .box:nth-child(3){
+    background: #328fa5;
+}
+
+@media screen and (max-width: 37.5rem) {
+    .container{
+        flex-direction: column;
+        height: 65rem;
+        max-width: fit-content;
+
+    }
+  }

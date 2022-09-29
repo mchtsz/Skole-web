@@ -1,6 +1,7 @@
 /*-----Button kode--------*/
 .button {
     display: inline-block;
+    list-style-type: none;
     border-radius: 1rem;
     background-color: #4a6dad;
     border: 1rem;
@@ -39,4 +40,17 @@
 .button:hover span:after {
     opacity: 1;
     right: 0;
+}
+
+.buttons {
+  margin-left: 12rem;
+}
+@media screen and (max-width: 37.5rem) {
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 0;
+  }
 }
