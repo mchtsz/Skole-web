@@ -43,8 +43,9 @@
 }
 
 .buttons {
-  margin-left: 11rem;
+  margin-left: 6.8rem;
 }
+
 @media screen and (max-width: 37.5rem) {
   .buttons {
     display: flex;

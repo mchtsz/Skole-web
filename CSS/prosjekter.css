@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*Prosjekt bokser høyde + bredde + flex*/
@@ -9,8 +9,9 @@ body {
     position: relative;
     width: 75rem;
     height: 18.75rem;
-    margin: 15rem auto;
+    margin: 8rem auto;
     display: flex;
+    max-width: 100%;
 }
 
 /*Box = innhold, altså tekst*/
@@ -123,7 +124,7 @@ body {
     .container{
         flex-direction: column;
         height: 65rem;
-        max-width: fit-content;
-
+        max-width: 100%;
+        margin: 0;
     }
   }

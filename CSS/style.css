@@ -21,6 +21,16 @@ footer{
   text-align: center;
 }
 
+/*--Fjerner blå farge fra link i footer--*/
+a[href^="tel"]{
+  color:inherit;
+  text-decoration:none;
+}
+
+a[href^="mail"]{
+  color:inherit;
+  text-decoration:none;
+}
 /*-----Hoved tekst----*/
 .section {
   color: whitesmoke;
@@ -70,7 +80,6 @@ footer{
   }
   .section {
   color: whitesmoke;
-  float: center;
   margin: auto;
   max-width:70rem;
   }
