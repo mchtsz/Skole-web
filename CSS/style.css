@@ -43,7 +43,7 @@ footer{
 
 /*------Bilde properties + glow-----*/
 .aside img {
-  border-radius: 1%;
+  border-radius: 2%;
   width: 70rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
