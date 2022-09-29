@@ -34,15 +34,14 @@ a[href^="mail"]{
 /*-----Hoved tekst----*/
 .section {
   color: whitesmoke;
-  float: center;
   margin: auto;
   max-width:70rem;
 }
 .imsection {
   color: whitesmoke;
-  float: center;
   margin: auto;
   max-width:70rem;
+
 }
 /*------Amalie Skram VGS bilde kode-----*/
 .aside{
