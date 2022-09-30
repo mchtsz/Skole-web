@@ -9,7 +9,7 @@ body {
     position: relative;
     width: 75rem;
     height: 18.75rem;
-    margin: 8rem auto;
+    margin: 10rem auto;
     display: flex;
     max-width: 100%;
 }
@@ -28,7 +28,7 @@ body {
     border-radius: 0.625rem;
 }
 
-/*Icon properties,*/
+/*---Icon properties---*/
 .container .box .icon {
     position: absolute;
     top: 0;
@@ -40,7 +40,7 @@ body {
     z-index: 1;
 }
 
-/*Border rundt icon*/
+/*-----Border rundt icon-----*/
 .container .box:hover .icon{
     top: 1.25rem;
     left: calc(50% - 2.5rem);
