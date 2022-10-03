@@ -21,6 +21,7 @@ footer{
   text-align: center;
 }
 
+/*--Hele hoved innholdet sin article-*/
 article {
   display: flex;
   justify-content: center;
@@ -40,7 +41,6 @@ a[href^="mail"]{
 /*-----Hoved tekst----*/
 .section {
   color: whitesmoke;
-  margin: auto;
   text-align: center;
 }
 
@@ -66,6 +66,7 @@ a[href^="mail"]{
   width: 70rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  max-width: 100%;
 }
 
 /*------IM INFO LISTE-----*/
@@ -88,9 +89,9 @@ a[href^="mail"]{
     width: 100%;
   }
   .section {
-  color: whitesmoke;
-  margin: auto;
-  max-width:70rem;
+    color: whitesmoke;
+    margin: auto;
+    max-width:70rem;
   }
   .imBilde {
     display: flex;
