@@ -14,6 +14,7 @@
     cursor: pointer;
     transition: all 0.5s;
     margin: 0.3rem;
+    overflow: hidden;
   }
   
 /*-Button animasjon + visuell respons-*/
@@ -42,16 +43,18 @@
     right: 0;
 }
 
+/*-Div til buttons som sørger for at de er sentrert-*/
 .buttons {
-  width: 100%;
-  display: flex;
+  text-align: center;
   justify-content: center;
   align-content: center;
+  overflow: hidden;
 }
 
+/*-I telefonmodus justeres automatisk-*/
 @media screen and (max-width: 37.5rem) {
   .buttons {
-    display: flex;
+    text-align: center;
     align-items: center;
     justify-content: center;
     flex-direction: column;
