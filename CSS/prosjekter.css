@@ -120,6 +120,7 @@ body {
     background: #328fa5;
 }
 
+/*----------Telefon modus--------------*/
 @media screen and (max-width: 37.5rem) {
     .container{
         flex-direction: column;
