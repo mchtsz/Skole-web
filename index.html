@@ -27,39 +27,39 @@
           </div>
         </li>
 
+        <script>
+          /* Når brukeren klikker på knappen,
+          veksle mellom å skjule og vise dropdown boks */
+          function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+          }
+          
+          // Lukk dropdown hvis brukeren klikker utenfor//
+          window.onclick = function(e) {
+            if (!e.target.matches('.dropbtn')) {
+            var myDropdown = document.getElementById("myDropdown");
+              if (myDropdown.classList.contains('show')) {
+                myDropdown.classList.remove('show');
+              }
+            }
+          }
+        </script>
+
         <!--Github til høyre-->
         <li class="right"><a href="https://github.com/mchtsz" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a></li>
       </ul>
     </nav>
-
-    <script>
-      /* Når brukeren klikker på knappen,
-      veksle mellom å skjule og vise dropdown boks */
-      function myFunction() {
-        document.getElementById("myDropdown").classList.toggle("show");
-      }
-      
-      // Lukk dropdown hvis brukeren klikker utenfor//
-      window.onclick = function(e) {
-        if (!e.target.matches('.dropbtn')) {
-        var myDropdown = document.getElementById("myDropdown");
-          if (myDropdown.classList.contains('show')) {
-            myDropdown.classList.remove('show');
-          }
-        }
-      }
-    </script>
 
     <!--Hoved innhold (tekst + buttons)-->
     <article>
       <div style="padding:0 1rem;">
         <div class="section">
           <div class="mid">
-          <h2>Amalie Skram VGS</h2>
-          <h5>Amalie Skram vgs er en fylkeskommunal videregående skole i Bergen, som ble grunnlagt i 2014.</h5>
-          <p>Navnet "Amalie Skram" er til minne og ære for forfatteren Amalie Skram. Rektor på skolen er Lars Berntsen som ble ansatt i 2019.</p>
-          <p>Skolen har vært populær siden den startet i 2014, og i 2022 var førsteinntaket for studiespesialisering 51,4.</p>
-          <h4 class="utd">Skolen tilbyr 5 utdanningstilbud:</h4>
+            <h2>Amalie Skram VGS</h2>
+            <h5>Amalie Skram vgs er en fylkeskommunal videregående skole i Bergen, som ble grunnlagt i 2014.</h5>
+            <p>Navnet "Amalie Skram" er til minne og ære for forfatteren Amalie Skram. Rektor på skolen er Lars Berntsen som ble ansatt i 2019.</p>
+            <p>Skolen har vært populær siden den startet i 2014, og i 2022 var førsteinntaket for studiespesialisering 51,4.</p>
+            <h4 class="utd">Skolen tilbyr 5 utdanningstilbud:</h4>
           </div>
         </div>
           
@@ -77,7 +77,6 @@
           <img src="/BILDER/amalie.png" alt="Skole">
         </div>
       </div>
-
     </article>
 
     <!--Info nede (footer)-->

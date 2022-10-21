@@ -75,10 +75,10 @@
   }
   
   /*--Dropdown innhold rekkefølge på side--*/
-  
   .show {
     display: flex;
   }
+
   /*------Github-----*/
   ul.topnav li.right {
     float: right;
