@@ -1,46 +1,46 @@
 /*-----Button kode--------*/
 .button {
-    display: inline-block;
-    list-style-type: none;
-    border-radius: 1rem;
-    background-color: #4a6dad;
-    border: 1rem;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 1.1rem;
-    padding: 1rem;
-    width: 12.8rem;
-    height: 4.5rem;
-    cursor: pointer;
-    transition: all 0.5s;
-    margin: 0.3rem;
-    overflow: hidden;
-  }
+  display: inline-block;
+  list-style-type: none;
+  border-radius: 1rem;
+  background-color: #4a6dad;
+  border: 1rem;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 1rem;
+  width: 12.8rem;
+  height: 4.5rem;
+  cursor: pointer;
+  transition: all 0.5s;
+  margin: 0.3rem;
+  overflow: hidden;
+}
   
 /*-Button animasjon + visuell respons-*/
 .button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
   
 .button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -1.2rem;
-    transition: 0.5s;
-  }
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -1.2rem;
+  transition: 0.5s;
+}
     
 .button:hover span {
-    padding-right: 1.5rem;
-  }
+  padding-right: 1.5rem;
+}
     
 .button:hover span:after {
-    opacity: 1;
-    right: 0;
+  opacity: 1;
+  right: 0;
 }
 
 /*-Div til buttons som sørger for at de er sentrert-*/
