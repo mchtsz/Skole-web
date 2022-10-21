@@ -61,7 +61,7 @@ ul.topnav li a.active{
   background-color: #2d333b;
   min-width: 10rem;
   box-shadow: 0rem 0.5rem 1rem 0rem rgba(0,0,0,0.2);
-  z-index: 1;
+  z-index: 100;
 }
 
 /*----Dropdown link design-----*/
@@ -84,8 +84,35 @@ ul.topnav li.right {
   float: right;
 }
 
+.cent {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.r1 {
+  display: flex;
+}
+
+.r2 {
+  display: none;
+}
+
 /*---------------Telefon modus------------*/
 @media screen and (max-width: 37.5rem) {
-  ul.topnav li.right, 
+  ul.topnav li.right,
+  .dropdown .dropbtn, 
   ul.topnav li {float: none;}
+
+  .r1 {
+    display: none;
+  }
+
+  .r2 {
+    display: block;
+  }
+
+  #myDropdown2 {
+    flex-direction: column;
+  }
 }

@@ -11,96 +11,123 @@
   <title>Prosjekter</title>
 </head>
  <body>
-  <nav>
-    <!--Navigaton bar / top bar-->
-    <ul class="topnav">
-      <li><a href="../"><i class="fa fa-fw fa-home"></i>Hjem</a></li>
-      <li><a href="../info"><i class="fa fa-fw fa-question"></i>Om IM-linjen</a></li>
-      <li><a class="active" href="../prosjekter"><i class="fa fa-fw fa-paperclip"></i>Prosjekter</a></li>
+    <nav>
+      <!--Navigaton bar / top bar-->
+      <ul class="topnav">
+        <li><a href="/"><i class="fa fa-fw fa-home"></i>Hjem</a></li>
+        <li><a href="/info"><i class="fa fa-fw fa-question"></i>Om IM-linjen</a></li>
+        <li><a class="active" href="/prosjekter"><i class="fa fa-fw fa-paperclip"></i>Prosjekter</a></li>
 
-      <!--Dropdown section-->
-      <li><div class="dropdown"><button class="dropbtn" onclick="myFunction()"><i class="fa fa-fw fa-book"></i>Fag <i class="fa fa-caret-down"></i></button>
-        <div class="dropdown-content" id="myDropdown">
-          <a href="#">IT</a>
-          <a href="#">Medieproduksjon</a>
-          <a href="#">Engelsk</a>
-        </div>
-      </li>
+        <!--Dropdown section-->
+        <li class="r1">
+          <div class="dropdown"><button class="dropbtn" onclick="myFunction()"><i class="fa fa-fw fa-book"></i>Fag <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content" id="myDropdown">
+                <a href="#">IT</a>
+                <a href="#">Medieproduksjon</a>
+                <a href="#">Engelsk</a>
+            </div>
+        </li>
 
-      <!--Github til høyre-->
-      <li class="right"><a href="https://github.com/mchtsz" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a></li>
-    </ul>
-  </nav>
-  
-  <script>
-    /* Når brukeren klikker på knappen,
-    veksle mellom å skjule og vise dropdown boks */
-    function myFunction() {
-      document.getElementById("myDropdown").classList.toggle("show");
-    }
+        <!--Github til høyre-->
+        <li class="right">
+          <div class="cent">
+            <a href="https://github.com/mchtsz" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+
+            <div class="dropdown r2">
+              <button class="dropbtn" onclick="myFunction2()">
+                <div>
+                  <i class="fa fa-fw fa-book"></i>Fag <i class="fa fa-caret-down"></i>
+                </div>
+              </button>
+
+              <div class="dropdown-content" id="myDropdown2">
+                <a href="#">IT</a>
+                <a href="#">Medieproduksjon</a>
+                <a href="#">Engelsk</a>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
     
-    // Lukk dropdown hvis brukeren klikker utenfor//
-    window.onclick = function(e) {
-      if (!e.target.matches('.dropbtn')) {
-      var myDropdown = document.getElementById("myDropdown");
-        if (myDropdown.classList.contains('show')) {
-          myDropdown.classList.remove('show');
-        }
-      }
-    }
-  </script>
-  <!--Prosjekt bokser-->
-  <div class="container">
-  
-    <!--Boks 1-->
-    <div class="box">
-        <div class="icon">
-          <i class="fa fa-hand-rock-o" aria-hidden="true"></i>
-        </div>
-        <div class="content">
-            <h3>Stein, saks, papir.</h3>
-            <p>
-              Stein, saks, papir var det første prosjektet vi gjorde i IM klassen,
-              der lagde vi en enkel nettside med HTML og CSS der man kunne spille "Stein, saks, papir."
-            </p>
-        </div>
-    </div>
+    <!--Prosjekt bokser-->
+    <div class="container">
+    
+      <!--Boks 1-->
+      <div class="box">
+          <div class="icon">
+            <i class="fa fa-hand-rock-o" aria-hidden="true"></i>
+          </div>
+          <div class="content">
+              <h3>Stein, saks, papir.</h3>
+              <p>
+                Stein, saks, papir var det første prosjektet vi gjorde i IM klassen,
+                der lagde vi en enkel nettside med HTML og CSS der man kunne spille "Stein, saks, papir."
+              </p>
+          </div>
+      </div>
 
-    <!--Boks 2-->
-    <div class="box">
-        <div class="icon">
-            <i class="fa fa-globe" aria-hidden="true"></i>
-        </div>
-        <div class="content">
-          <h3>Nettside</h3>
-            <p>
-              Denne nettsiden var det andre prosjektet vi gjorde i IM klassen,
-              den er utviklet i hovedsakelig HTML og CSS. Nettsiden representerer
-              Amalie Skram og IM-linjen.
-            </p>
-        </div>
-    </div>
+      <!--Boks 2-->
+      <div class="box">
+          <div class="icon">
+              <i class="fa fa-globe" aria-hidden="true"></i>
+          </div>
+          <div class="content">
+            <h3>Nettside</h3>
+              <p>
+                Denne nettsiden var det andre prosjektet vi gjorde i IM klassen,
+                den er utviklet i hovedsakelig HTML og CSS. Nettsiden representerer
+                Amalie Skram og IM-linjen.
+              </p>
+          </div>
+      </div>
 
-    <!--Boks 3-->
-    <div class="box">
-        <div class="icon">
-            <i class="fa fa-map-marker" aria-hidden="true"></i>
-        </div>
-        <div class="content">
-          <h3>Zone Warz</h3>
-            <p>
-              ZoneWarz.com er en hide n' seek nettside der du kan leke gjemsel, 
-              du får en sone du kan gjemme deg inne i. Jeg ga Zonewarz-utviklerne 
-              flere ideer som de har brukt. 
-            </p>
-        </div>
+      <!--Boks 3-->
+      <div class="box">
+          <div class="icon">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+          </div>
+          <div class="content">
+            <h3>Zone Warz</h3>
+              <p>
+                ZoneWarz.com er en hide n' seek nettside der du kan leke gjemsel, 
+                du får en sone du kan gjemme deg inne i. Jeg ga Zonewarz-utviklerne 
+                flere ideer som de har brukt. 
+              </p>
+          </div>
+      </div>
     </div>
-  </div>
       
     <!--Info nede (footer)-->
     <footer>
       <i class="fa fa-fw fa-map-marker"></i>Lungegårdskaien 40, 5015 Bergen • 
       <i class="fa fa-fw fa-envelope"></i> Spørsmål? - <a href="mailto:post@mhatland.com"><b>post@mhatland.com</b></a>
     </footer> 
+
+    <script>
+      /* Når brukeren klikker på knappen,
+      veksle mellom å skjule og vise dropdown boks */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+      
+      // Lukk dropdown hvis brukeren klikker utenfor//
+      window.onclick = function(e) {
+        if (!e.target.matches('.dropbtn')) {
+        var myDropdown = document.getElementById("myDropdown");
+          if (myDropdown.classList.contains('show')) {
+            myDropdown.classList.remove('show');
+          }
+        }
+      }
+
+      /* Når brukeren klikker på knappen,
+      veksle mellom å skjule og vise dropdown boks */
+      function myFunction2() {
+        console.log("U Click me")
+        document.getElementById("myDropdown2").classList.toggle("show");
+      }
+    </script>
  </body>
 </html>

@@ -26,6 +26,7 @@ article {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: auto;
 }
 
 /*--Fjerner blå farge fra link i footer--*/

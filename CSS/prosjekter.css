@@ -9,7 +9,8 @@ body {
     position: relative;
     width: 75rem;
     height: 18.75rem;
-    margin: 10rem auto;
+    margin: 0 auto;
+    margin-top: auto;
     display: flex;
     max-width: 100%;
 }
