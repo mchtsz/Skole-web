@@ -75,14 +75,15 @@ a[href^="mail"]{
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
   gap: 2rem;
 }
 
+
+
 .imBilde{
   width: 40rem;
-  max-width:100%;
+  max-width: 100%;
   border-radius: 5%;
 }
 
