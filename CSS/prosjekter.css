@@ -26,7 +26,7 @@ body {
     margin: 0.9rem;
     box-sizing: border-box;
     overflow: hidden;
-    border-radius: 0.625rem;
+    border-radius: 5%;
 }
 
 /*---Icon properties---*/

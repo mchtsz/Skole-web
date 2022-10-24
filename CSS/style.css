@@ -82,7 +82,8 @@ a[href^="mail"]{
 
 .imBilde{
   width: 40rem;
-  max-width:100%
+  max-width:100%;
+  border-radius: 5%;
 }
 
 /*-Gjør slik at bilde og tekst automatisk justerer seg for telefon-*/
