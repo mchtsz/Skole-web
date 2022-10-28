@@ -1,10 +1,10 @@
 /*-----Navbar design----*/
 ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #2d333b;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2d333b;
 }
 
 /*---Hoved faner---*/
@@ -26,10 +26,6 @@ ul.topnav li a:hover:not(.active) {
   background-color: #111;
 }
 
-.dropdown:hover:not(.active) {
-  background-color: #111;
-}
-
 /*------Current used html visual-----*/
 ul.topnav li a.active{
   background-color: #4a6dad;
@@ -39,6 +35,10 @@ ul.topnav li a.active{
 .dropdown {
   float: left;
   overflow: hidden;
+}
+
+.dropdown:hover:not(.active) {
+  background-color: #111;
 }
 
 /*----Dropdown button design-----*/
@@ -70,8 +70,11 @@ ul.topnav li a.active{
   color: black;
   padding: 0.75rem 1rem;
   text-decoration: none;
-  display: block;
+  display: flex;
   text-align: left;
+}
+#myDropdown {
+  flex-direction: column;
 }
 
 /*--Dropdown innhold rekkefølge på side--*/
@@ -84,6 +87,7 @@ ul.topnav li.right {
   float: right;
 }
 
+/*------Dropdown men, gjort om til 2 forskjellige som bytter når det er 600px--*/
 .cent {
   display: flex;
   align-content: center;

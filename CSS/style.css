@@ -54,6 +54,13 @@ a[href^="mail"]{
   max-width: 50rem;
 }
 
+.oppgaver {
+  float: left;
+  margin: auto;
+  color: whitesmoke;
+  text-align: center;
+}
+
 /*------Amalie Skram VGS bilde kode-----*/
 .aside{
   width: 100%;
@@ -78,8 +85,6 @@ a[href^="mail"]{
   flex-wrap: wrap;
   gap: 2rem;
 }
-
-
 
 .imBilde{
   width: 40rem;
