@@ -1,0 +1,50 @@
+#Markdowns {
+    display: flex;
+    flex-direction: column;
+}
+
+#markdowns div *{
+    text-align: center;
+    color: whitesmoke;
+}
+
+#list {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+
+    right: -2rem;
+    top: 15rem;
+    transform: translate(-50%,-50%);
+    padding: 1rem;
+    gap: 0.5rem;
+    z-index: 1;
+    border-radius: 1rem;
+    overflow: hidden;
+
+    background-color: #2d333b;
+}
+
+#list a {
+    color: whitesmoke;
+    text-align: center;
+    
+    border-bottom: 2px dashed white;
+    text-decoration: none;
+}
+
+#list p {
+    color: whitesmoke;
+    text-align: center;
+    border-bottom: 2px solid white;
+    width: 100%;
+    font-size: 1.25rem;
+}
+
+@media screen and (max-width: 600px) {
+    #list {
+        flex-direction: column;
+        top: 25rem;
+        right: -3.5rem;
+    }
+}
