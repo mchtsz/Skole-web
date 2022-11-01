@@ -7,8 +7,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   
 }
+
 header{ 
   min-height: 3.125rem;
+}
+
+
+html {
+  font-size: 18px;
 }
 
 /*--Footer med info--*/
@@ -92,7 +98,31 @@ a[href^="mail"]{
   border-radius: 5%;
 }
 
-/*-Gjør slik at bilde og tekst automatisk justerer seg for telefon-*/
+/*-Gjør slik at bilde og tekst automatisk justerer seg for telefon, og for enheter med opp til 4k res.-*/
+@media screen and (max-width: 4000px) {
+  html {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-height: 1400px) {
+  html {
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-height: 1000px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-height: 750px) {
+  html {
+    font-size: 13px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .aside img {
     object-fit: contain;
@@ -101,7 +131,7 @@ a[href^="mail"]{
   .section {
     color: whitesmoke;
     margin: auto;
-    max-width:70rem;
+    max-width: 70rem;
   }
   .imBilde {
     display: flex;
