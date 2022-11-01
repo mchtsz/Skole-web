@@ -111,6 +111,12 @@ a[href^="mail"]{
   }
 }
 
+@media screen and (max-height: 1100px) {
+  html {
+    font-size: 19.5px;
+  }
+}
+
 @media screen and (max-height: 1000px) {
   html {
     font-size: 16px;
@@ -119,7 +125,7 @@ a[href^="mail"]{
 
 @media screen and (max-height: 900px) {
   html {
-    font-size: 14px;
+    font-size: 15px;
   }
 }
 
@@ -130,6 +136,9 @@ a[href^="mail"]{
 }
 
 @media screen and (max-width: 600px) {
+  html {
+    font-size: 16px;
+  }
   .aside img {
     object-fit: contain;
     width: 100%;
