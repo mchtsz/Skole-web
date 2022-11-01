@@ -117,6 +117,12 @@ a[href^="mail"]{
   }
 }
 
+@media screen and (max-height: 900px) {
+  html {
+    font-size: 14px;
+  }
+}
+
 @media screen and (max-height: 750px) {
   html {
     font-size: 13px;
