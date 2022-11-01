@@ -12,7 +12,6 @@ header{
   min-height: 3.125rem;
 }
 
-
 html {
   font-size: 18px;
 }
@@ -22,7 +21,7 @@ footer{
   margin-top: auto;
   background: #2d333b;
   color: white;
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding: 1rem 1rem;
   text-align: center;
 }
@@ -33,6 +32,7 @@ article {
   justify-content: center;
   align-items: center;
   margin-top: auto;
+  font-size: 1.2rem;
 }
 
 /*--Fjerner blå farge fra link i footer--*/
@@ -49,15 +49,22 @@ a[href^="mail"]{
 .section {
   color: whitesmoke;
   text-align: center;
+  max-width: 70rem;
 }
 
 /*-IM INFO TEKST-*/
 .imsection {
   color: whitesmoke;
   margin: auto;
+  font-size: 1.2rem;
 }
+
 .bigp {
   max-width: 50rem;
+}
+
+.liten {
+  font-size: 0.95rem;
 }
 
 .oppgaver {
@@ -93,7 +100,7 @@ a[href^="mail"]{
 }
 
 .imBilde{
-  width: 40rem;
+  width: 50rem;
   max-width: 100%;
   border-radius: 5%;
 }

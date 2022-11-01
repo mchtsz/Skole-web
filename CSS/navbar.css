@@ -5,6 +5,7 @@ ul.topnav {
   padding: 0;
   overflow: hidden;
   background-color: #2d333b;
+  font-size: 1.2rem;
 }
 
 /*---Hoved faner---*/
@@ -45,7 +46,7 @@ ul.topnav li a.active{
 /*----Dropdown button design-----*/
 .dropdown .dropbtn {
   cursor: pointer;
-  font-size: 1rem;  
+  font-size: 1.2rem;  
   border: none;
   outline: none;
   color: white;
