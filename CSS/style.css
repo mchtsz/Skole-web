@@ -93,7 +93,7 @@ a[href^="mail"]{
 }
 
 /*-Gjør slik at bilde og tekst automatisk justerer seg for telefon-*/
-@media screen and (max-width: 37.5rem) {
+@media screen and (max-width: 600px) {
   .aside img {
     object-fit: contain;
     width: 100%;
