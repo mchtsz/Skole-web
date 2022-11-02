@@ -1,3 +1,8 @@
+html, body {
+    margin: 0; height: 100%; overflow: hidden
+}
+
+
 #Markdowns {
     display: flex;
     flex-direction: column;
@@ -13,7 +18,7 @@
     display: flex;
     flex-direction: column;
 
-    right: 0rem;
+    right: 0;
     top: 8.5rem;
     padding: 2rem;
     margin: 1rem;
@@ -23,6 +28,10 @@
     overflow: hidden;
 
     background-color: #2d333b;
+}
+
+.fagkon {
+    top: 20rem;
 }
 
 #list a {

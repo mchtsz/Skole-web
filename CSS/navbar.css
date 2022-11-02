@@ -105,7 +105,7 @@ ul.topnav li.right {
 }
 
 /*---------------Telefon modus------------*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   ul.topnav li.right,
   .dropdown .dropbtn, 
   ul.topnav li {float: none;}

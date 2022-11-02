@@ -5,15 +5,10 @@ body {
   display: flex; 
   flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
-  
 }
 
 header{ 
   min-height: 3.125rem;
-}
-
-html {
-  font-size: 18px;
 }
 
 /*--Footer med info--*/
@@ -25,6 +20,7 @@ footer{
   padding: 1rem 1rem;
   text-align: center;
 }
+
 
 /*--Hele hoved innholdet sin article-*/
 article {
@@ -55,7 +51,7 @@ a[href^="mail"]{
 /*-IM INFO TEKST-*/
 .imsection {
   color: whitesmoke;
-  margin: auto;
+  margin-bottom: 1rem;
   font-size: 1.2rem;
 }
 
