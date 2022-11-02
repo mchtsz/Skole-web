@@ -9,14 +9,14 @@
 }
 
 #list {
-    position: absolute;
+    position: fixed;
     display: flex;
     flex-direction: column;
 
-    right: -2rem;
-    top: 15rem;
-    transform: translate(-50%,-50%);
-    padding: 1rem;
+    right: 0rem;
+    top: 8.5rem;
+    padding: 2rem;
+    margin: 1rem;
     gap: 0.5rem;
     z-index: 1;
     border-radius: 1rem;
@@ -44,7 +44,12 @@
 @media screen and (max-width: 600px) {
     #list {
         flex-direction: column;
-        top: 25rem;
-        right: -3.5rem;
+        top: 22rem;
+        right: 0rem;
+        padding: 1rem;
+        margin: 1rem;
+    }
+    .fagkon {
+        top: 23rem;
     }
 }

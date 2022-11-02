@@ -127,6 +127,7 @@ body {
         flex-direction: column;
         height: 65rem;
         max-width: 100%;
+        font-size: 18px;
         margin: 0;
         justify-content: center; 
         align-items: center;
