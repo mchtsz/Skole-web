@@ -2,9 +2,9 @@
 .button {
   display: inline-block;
   list-style-type: none;
-  border-radius: 1rem;
+  border-radius: 1.2rem;
   background-color: #4a6dad;
-  border: 1rem;
+  border: 1.2rem;
   color: #FFFFFF;
   text-align: center;
   font-size: 1.2rem;
