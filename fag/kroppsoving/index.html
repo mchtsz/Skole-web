@@ -5,27 +5,42 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="../CSS/style.css">
-  <link rel="stylesheet" href="../CSS/navbar.css">
-  <link rel="stylesheet" href="../CSS/prosjekter.css">
-  <title>Prosjekter</title>
+  <link rel="stylesheet" href="/CSS/style.css">
+  <link rel="stylesheet" href="/CSS/navbar.css">
+  <link rel="stylesheet" href="/CSS/markdown.css">
+
+  <!-- Javascript -->
+
+  <title>Programmering</title>
+  <style>
+    body, html {
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    video {
+        width: 100%;
+        height: 100%;
+    }
+</style>
 </head>
- <body>
+  <body>
     <nav>
       <!--Navigaton bar / top bar-->
       <ul class="topnav">
         <li><a href="/"><i class="fa fa-fw fa-home"></i>Hjem</a></li>
         <li><a href="/info"><i class="fa fa-fw fa-question"></i>Om IM-linjen</a></li>
-        <li><a class="active" href="/prosjekter"><i class="fa fa-fw fa-paperclip"></i>Prosjekter</a></li>
+        <li><a href="/prosjekter"><i class="fa fa-fw fa-paperclip"></i>Prosjekter</a></li>
 
         <!--Dropdown section-->
         <li class="r1">
-          <div class="dropdown"><button class="dropbtn" onclick="myFunction()"><i class="fa fa-fw fa-book"></i>Fag <i class="fa fa-caret-down"></i></button>
+          <div class="dropdown" style="background-color: #4a6dad;"><button class="dropbtn" onclick="myFunction()"><i class="fa fa-fw fa-book"></i>Fag <i class="fa fa-caret-down"></i></button>
             <div class="dropdown-content" id="myDropdown">
-              <a href="/fag/kroppsoving/">Kroppsøving</a>
-              <a href="/fag/teknologiforståelse/">Teknologiforståelse</a>
-              <a href="/fag/prod. og historie/">Prod. og historiefortelling</a>
-              <a href="/fag/konsept. og program/">Konseptutv. og programmering</a>
+                <a href="/fag/kroppsoving/">Kroppsøving</a>
+                <a href="/fag/teknologiforståelse/">Teknologiforståelse</a>
+                <a href="/fag/prod. og historie/">Prod. og historiefortelling</a>
+                <a href="/fag/konsept. og program/">Konseptutv. og programmering</a>
             </div>
           </div>
         </li>
@@ -35,7 +50,7 @@
           <div class="cent">
             <a href="https://github.com/mchtsz" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
 
-            <div class="dropdown r2">
+            <div class="dropdown r2" style="background-color: #4a6dad;">
               <button class="dropbtn" onclick="myFunction2()">
                 <div>
                   <i class="fa fa-fw fa-book"></i>Fag <i class="fa fa-caret-down"></i>
@@ -54,55 +69,10 @@
       </ul>
     </nav>
     
-    <!--Prosjekt bokser-->
-    <div class="container">
+    <video src="https://www.dropbox.com/s/ie010q2gta13wzi/TreningsVideo.mp4?dl=1" controls>
+        
+    </video>
     
-      <!--Boks 1-->
-      <div class="box">
-          <div class="icon">
-            <i class="fa fa-hand-rock-o" aria-hidden="true"></i>
-          </div>
-          <div class="content">
-              <h3>Stein, saks, papir.</h3>
-              <p>
-                Stein, saks, papir var det første prosjektet vi gjorde i IM klassen,
-                der lagde vi en enkel nettside med HTML og CSS der man kunne spille "Stein, saks, papir."
-              </p>
-          </div>
-      </div>
-
-      <!--Boks 2-->
-      <div class="box">
-          <div class="icon">
-              <i class="fa fa-globe" aria-hidden="true"></i>
-          </div>
-          <div class="content">
-            <h3>Nettside</h3>
-              <p>
-                Denne nettsiden var det andre prosjektet vi gjorde i IM klassen,
-                den er utviklet i hovedsakelig HTML og CSS. Nettsiden representerer
-                Amalie Skram og IM-linjen.
-              </p>
-          </div>
-      </div>
-
-      <!--Boks 3-->
-      <div class="box">
-          <div class="icon">
-              <i class="fa fa-map-marker" aria-hidden="true"></i>
-          </div>
-          <div class="content">
-            <h3>Zone Warz</h3>
-              <p>
-                ZoneWarz.com er en hide n' seek nettside der du kan leke gjemsel, 
-                du får en sone du kan gjemme deg inne i. Jeg ga Zonewarz-utviklerne 
-                flere ideer som de har brukt. 
-              </p>
-          </div>
-      </div>
-    </div>
-      
-    <!--Info nede (footer)-->
     <footer>
       <i class="fa fa-fw fa-map-marker"></i>Lungegårdskaien 40, 5015 Bergen • 
       <i class="fa fa-fw fa-envelope"></i> Spørsmål? - <a href="mailto:post@mhatland.com"><b>post@mhatland.com</b></a>
@@ -125,6 +95,7 @@
         }
       }
 
+
       /* Når brukeren klikker på knappen,
       veksle mellom å skjule og vise dropdown boks */
       function myFunction2() {
@@ -132,5 +103,5 @@
         document.getElementById("myDropdown2").classList.toggle("show");
       }
     </script>
- </body>
+  </body>
 </html>
