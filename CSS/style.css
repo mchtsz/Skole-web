@@ -19,6 +19,7 @@ footer{
   font-size: 1.2rem;
   padding: 1rem 1rem;
   text-align: center;
+  z-index: 1;
 }
 
 
@@ -101,6 +102,19 @@ a[href^="mail"]{
   border-radius: 5%;
 }
 
+.youtube{
+  display: flex;
+  margin: auto auto 0;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+.yt {
+  display: flex;
+  margin: auto;
+  object-fit: contain;
+}
 /*-Gjør slik at bilde og tekst automatisk justerer seg for telefon, og for enheter med opp til 4k res.-*/
 @media screen and (max-width: 4000px) {
   html {
@@ -157,5 +171,14 @@ a[href^="mail"]{
   }
   .mid {
     text-align: center;
+  }
+  .youtube {
+    margin: auto;
+  }
+  .yt {
+    display: flex;
+    position: relative;
+    height: 400px;
+    width: 380px;
   }
 }
