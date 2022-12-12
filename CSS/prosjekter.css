@@ -36,13 +36,13 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background:#f00;
+    background: #f00;
     transition: 0.5s;
     z-index: 1;
 }
 
 /*-----Border rundt icon-----*/
-.container .box:hover .icon{
+.container .box:hover .icon {
     top: 1.25rem;
     left: calc(50% - 2.5rem);
     width: 5rem;
@@ -61,6 +61,7 @@ body {
     transition: 0.5s;
     color: #fff;
 }
+
 .container .box:hover .icon .fa {
     font-size: 2.5rem;
 }
@@ -101,7 +102,8 @@ body {
 .container .box:nth-child(1) .icon {
     background: #319635;
 }
-.container .box:nth-child(1){
+
+.container .box:nth-child(1) {
     background: #4caf50;
 }
 
@@ -109,7 +111,8 @@ body {
 .container .box:nth-child(2) .icon {
     background: #d03852;
 }
-.container .box:nth-child(2){
+
+.container .box:nth-child(2) {
     background: #f54967;
 }
 
@@ -117,23 +120,25 @@ body {
 .container .box:nth-child(3) .icon {
     background: #23798e;
 }
-.container .box:nth-child(3){
+
+.container .box:nth-child(3) {
     background: #328fa5;
 }
 
 /*----------Telefon modus--------------*/
 @media screen and (max-width: 600px) {
-    .container{
+    .container {
         flex-direction: column;
         height: 65rem;
         max-width: 100%;
         font-size: 18px;
         margin: 0;
-        justify-content: center; 
+        justify-content: center;
         align-items: center;
     }
-    .container .box{
+
+    .container .box {
         max-width: 100%;
         margin: 1rem;
     }
-  }
+}

@@ -1,6 +1,7 @@
-html, body {
-    margin: 0; 
-    height: 100%; 
+html,
+body {
+    margin: 0;
+    height: 100%;
     overflow-x: hidden;
 }
 
@@ -10,7 +11,7 @@ html, body {
     flex-direction: column;
 }
 
-#markdowns div *{
+#markdowns div * {
     text-align: center;
     color: whitesmoke;
 }
@@ -39,7 +40,7 @@ html, body {
 #list a {
     color: whitesmoke;
     text-align: center;
-    
+
     border-bottom: 2px dashed white;
     text-decoration: none;
 }
@@ -60,6 +61,7 @@ html, body {
         padding: 1rem;
         margin: 1rem;
     }
+
     .fagkon {
         top: 23rem;
     }

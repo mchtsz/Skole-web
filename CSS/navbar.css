@@ -28,7 +28,7 @@ ul.topnav li a:hover:not(.active) {
 }
 
 /*------Current used html visual-----*/
-ul.topnav li a.active{
+ul.topnav li a.active {
   background-color: #4a6dad;
 }
 
@@ -46,7 +46,7 @@ ul.topnav li a.active{
 /*----Dropdown button design-----*/
 .dropdown .dropbtn {
   cursor: pointer;
-  font-size: 1.2rem;  
+  font-size: 1.2rem;
   border: none;
   outline: none;
   color: white;
@@ -62,7 +62,7 @@ ul.topnav li a.active{
   position: absolute;
   background-color: #2d333b;
   min-width: 10rem;
-  box-shadow: 0rem 0.5rem 1rem 0rem rgba(0,0,0,0.2);
+  box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.2);
   z-index: 100;
 }
 
@@ -75,6 +75,7 @@ ul.topnav li a.active{
   display: flex;
   text-align: left;
 }
+
 #myDropdown {
   flex-direction: column;
 }
@@ -106,9 +107,12 @@ ul.topnav li.right {
 
 /*---------------Telefon modus------------*/
 @media screen and (max-width: 650px) {
+
   ul.topnav li.right,
-  .dropdown .dropbtn, 
-  ul.topnav li {float: none;}
+  .dropdown .dropbtn,
+  ul.topnav li {
+    float: none;
+  }
 
   .r1 {
     display: none;

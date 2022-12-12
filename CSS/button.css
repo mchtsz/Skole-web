@@ -16,7 +16,7 @@
   margin: 0.45rem;
   overflow: hidden;
 }
-  
+
 /*-Button animasjon + visuell respons-*/
 .button span {
   cursor: pointer;
@@ -24,7 +24,7 @@
   position: relative;
   transition: 0.5s;
 }
-  
+
 .button span:after {
   content: '\00bb';
   position: absolute;
@@ -33,11 +33,11 @@
   right: -1.2rem;
   transition: 0.5s;
 }
-    
+
 .button:hover span {
   padding-right: 1.5rem;
 }
-    
+
 .button:hover span:after {
   opacity: 1;
   right: 0;
