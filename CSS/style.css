@@ -188,6 +188,6 @@ a[href^="mail"] {
     display: flex;
     position: relative;
     height: 400px;
-    width: 500px;
+    max-width: 100%;
   }
 }
