@@ -55,6 +55,7 @@
 /*-I telefonmodus justeres automatisk-*/
 @media screen and (max-width: 600px) {
   .buttons {
+    display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;

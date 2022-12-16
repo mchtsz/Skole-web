@@ -5,6 +5,31 @@ body {
     overflow-x: hidden;
 }
 
+.db {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    opacity: 0.9;
+    width: 65%;
+    height: 100%;
+}
+
+p.mid {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+p.mkdp {
+    display: flex;
+    margin: auto;
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 500;
+    max-width: 560px;
+}
 
 #Markdowns {
     display: flex;
