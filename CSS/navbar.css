@@ -125,4 +125,8 @@ ul.topnav li.right {
   #myDropdown2 {
     flex-direction: column;
   }
+
+  #list {
+    opacity: 0;
+  }
 }
