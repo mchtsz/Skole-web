@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Allow: /info
+
+Disallow: /fag/kroppsoving/
+Disallow: /fag/teknologiforståelse/
+Disallow: /fag/prod.%20og%20historie/
+Disallow: /fag/konsept.%20og%20program/
